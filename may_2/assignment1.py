@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv() 
-OpenAI_Key = os.getenv("OPENAI_API_KEY")
+OpenAI_Key = os.getenv("")
 
 # Set your API key
 client = openai.OpenAI(api_key=OpenAI_Key)
